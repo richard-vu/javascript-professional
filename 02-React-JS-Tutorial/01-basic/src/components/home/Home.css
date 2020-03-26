@@ -1,0 +1,17 @@
+.wrapper {
+    position: fixed;
+}
+
+.test2 {
+    margin-top: 100px;
+}
+
+.test {
+    height: 400px;
+    margin-top: 600px;
+}
+.bottom{
+    height: 40000px;
+    margin-top: 40px;
+    background: yellow;
+}
