@@ -1,0 +1,10 @@
+{
+  "name": "01-js-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Richard",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

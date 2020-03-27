@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basic</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="dist/js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>My First JavaScript</h2>
+            </div>
+            <div class="col-12">
+                <button type="button" onclick="onClick_1()">
+                    Click me to display Date and Time.</button>
+                <p id="demo_1"></p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>What Can JavaScript Do?</h2>
+            </div>
+            <div class="col-12">
+                <button type="button" onclick="onClick_2()">
+                    Click Me!
+                </button>
+                <p id="demo_2">JavaScript can change HTML content.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>What Can JavaScript Do?</h2>
+                <p>
+                    JavaScript can change HTML attribute values. In this case JavaScript changes the value of the src (source) attribute of an image.
+                </p>
+            </div>
+            <div class="col-12">
+                <button type="button" onclick="onClick_3()">
+                    Turn on the light
+                </button>
+                <img id="myImage" src="dist/img/pic_bulboff.gif" class="images">
+                <button onclick="onClick_4()">
+                    Turn off the light
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
