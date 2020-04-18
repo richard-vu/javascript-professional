@@ -4,6 +4,7 @@ import CardClassComponent from "../../../components/home/card/card-class-compone
 import "./Card.css";
 import img_1 from "../../../assets/post-images/img_1.png";
 import img_2 from "../../../assets/post-images/img_2.jpg";
+import img_3 from "../../../assets/post-images/img_3.jpg";
 
 export default class Card extends Component {
   render() {
@@ -16,12 +17,12 @@ export default class Card extends Component {
             title="Girl Dam Dang"
           />
           <CardClassComponent
-            image="https://kenh14cdn.com/2020/4/12/img5963-15866787651691146592224.jpg"
+            image={img_2}
             link="https://kenh14.vn/gai-xinh-bap-can-bo-thanh-tam-lai-dinh-lien-hoan-phot-lam-tuesday-va-an-choi-tha-cua-o-bar-nguoi-trong-cuoc-noi-gi-20200412151113705.chn"
             title="Girl Dam Dang 2"
           />
           <CardClassComponent
-            image={img_2}
+            image={img_3}
             link="https://kenh14.vn/gai-xinh-bap-can-bo-thanh-tam-lai-dinh-lien-hoan-phot-lam-tuesday-va-an-choi-tha-cua-o-bar-nguoi-trong-cuoc-noi-gi-20200412151113705.chn"
             title="Girl Dam Dang 3"
           />
