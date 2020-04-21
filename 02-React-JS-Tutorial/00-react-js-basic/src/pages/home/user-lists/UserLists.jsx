@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 export default class UserLists extends Component {
-  static propTypes = {
-    prop: PropTypes,
-  };
 
   render() {
     return (
       <div className="table-responsive">
-        <table class="table">
+        <table className="table">
           <caption>List of users</caption>
           <thead>
             <tr>

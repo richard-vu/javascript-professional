@@ -29,7 +29,6 @@ export default class Home extends Component {
 
   checkSign = () => {
     if (this.state.showHide !== 0) {
-      console.log(this.state.showHide);
       return <UserLists />;
     }
     return;
