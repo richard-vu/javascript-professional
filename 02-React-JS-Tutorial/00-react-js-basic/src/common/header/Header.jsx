@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../../assets/icon/logo.jpg";
+import "./Header.css";
 
 export default class Header extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a
-          className="navbar-brand"
-          href="https://github.com/richard-vu/"
-        >
+      <nav className="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+        <a className="navbar-brand" href="https://github.com/richard-vu/">
+          <img src={logo} width="50" height="50" alt="" />
           Richard
         </a>
         <button
@@ -24,28 +23,16 @@ export default class Header extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a
-              className="nav-item nav-link active"
-              href="https://github.com/richard-vu/"
-            >
+            <a className="nav-item nav-link active" href="/">
               Home <span className="sr-only">(current)</span>
             </a>
-            <a
-              className="nav-item nav-link"
-              href="https://github.com/richard-vu/"
-            >
+            <a className="nav-item nav-link" href="/">
               Features
             </a>
-            <a
-              className="nav-item nav-link"
-              href="https://github.com/richard-vu/"
-            >
+            <a className="nav-item nav-link" href="/">
               Pricing
             </a>
-            <a
-              className="nav-item nav-link disabled"
-              href="https://github.com/richard-vu/"
-            >
+            <a className="nav-item nav-link disabled" href="/">
               Disabled
             </a>
           </div>

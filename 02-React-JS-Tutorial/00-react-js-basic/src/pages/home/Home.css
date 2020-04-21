@@ -1,0 +1,12 @@
+.header-align{
+    z-index: 99;
+    display: block;
+    position: fixed;
+    margin-top: opx;
+    margin-bottom: 300px;
+}
+
+.home-align{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
