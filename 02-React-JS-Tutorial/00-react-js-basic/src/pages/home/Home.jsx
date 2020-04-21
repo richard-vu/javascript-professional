@@ -60,7 +60,7 @@ export default class Home extends Component {
         </div>
         <div className="row text-center home-align">
           <div className="col-12">
-            <div class="btn-group" role="group">
+            <div className="btn-group" role="group">
               <button className="btn btn-primary" onClick={this.saveUser}>
                 {this.state.showHide === 0
                   ? "Show list users"
