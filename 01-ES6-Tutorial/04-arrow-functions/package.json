@@ -1,8 +1,0 @@
-{
-  "name": "04-arrow-functions",
-  "version": "1.0.0",
-  "description": "Arrow Functions",
-  "main": "index.js",
-  "author": "Richard",
-  "license": "MIT"
-}
