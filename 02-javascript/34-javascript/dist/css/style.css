@@ -1,0 +1,34 @@
+.test {
+  border: 1px solid;
+}
+
+.dixuong {
+  transform: 0.4s;
+  margin-top: 200px;
+  opacity: 0;
+}
+
+.card {
+  transform: 0.4s;
+}
+.diphai {
+  animation: sangphai 1s forwards;
+}
+
+@-webkit-keyframes sangphai {
+  0% {
+    transform: translateX(0);
+    margin-top: 0px;
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(500px);
+    margin-top: 0px;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(500px);
+    margin-top: 500px;
+    opacity: 0;
+  }
+}

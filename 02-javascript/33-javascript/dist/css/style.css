@@ -1,0 +1,16 @@
+.test {
+  border: 1px solid;
+}
+
+.dixuong {
+  transform: 0.4s;
+  margin-top: 200px;
+  opacity: 0;
+}
+
+.card {
+  transform: 0.4s;
+}
+.diphai {
+  transform: translateX(200px);
+}

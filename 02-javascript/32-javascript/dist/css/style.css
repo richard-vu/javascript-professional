@@ -1,0 +1,9 @@
+.test{
+    border: 1px solid;
+}
+
+.dixuong{
+    transform: 0.4s;
+    margin-top: 200px;
+    opacity: 0;
+}
