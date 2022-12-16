@@ -1,0 +1,6 @@
+.header-align{
+    z-index: 100000;
+    display: block;
+    position: fixed;
+    margin-top: -20px;
+}

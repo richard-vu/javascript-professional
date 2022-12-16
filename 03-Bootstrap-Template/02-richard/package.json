@@ -1,0 +1,12 @@
+{
+  "name": "02-richard",
+  "version": "1.0.0",
+  "description": "Bootstrap Template Fix 01-richard",
+  "main": "index.js",
+  "author": "Richard",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1"
+  }
+}

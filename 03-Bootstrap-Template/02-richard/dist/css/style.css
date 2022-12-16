@@ -1,0 +1,67 @@
+.bg-nav-color{
+    background-color: #4caf50;
+}
+
+.bg-nav-fixed{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.carousel-item-img{
+    height: 300px;
+}
+
+.home-icon{
+    margin: 10px auto 50px auto;
+    text-align: center;
+}
+
+.home-icon span i {
+    font-size: 50px;
+    color: #1E90FF;
+    margin: 50px auto 10px auto;
+}
+
+.getstarted{
+    position: relative;
+    background: url("../img/bg1.jpeg");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.info-section{
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    margin: 50px auto 100px auto;
+}
+
+.img-fluid-rounded{
+    margin: 20px auto 20px auto;
+    width: 80%;
+    height: 80%;
+}
+
+.home-video{
+    position: relative;
+    background: url("../img/people.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.button-youtube i{
+    font-size: 50px;
+    color: #1E90FF;
+    margin: 50px auto 10px auto;
+}
